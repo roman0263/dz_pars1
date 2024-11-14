@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт про собак</title>
+    <style>
+        /* Основные стили страницы */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+
+        /* Заголовок и информация */
+        header {
+            background-color: #ffdd57;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Основной контент */
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .dog-breed {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 600px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .dog-breed h2 {
+            color: #ff5e57;
+            margin-bottom: 10px;
+        }
+
+        .dog-breed img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .dog-breed p {
+            margin-bottom: 10px;
+        }
+
+        /* Стили для ссылок */
+        .dog-breed a {
+            color: #ff5e57;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .dog-breed a:hover {
+            text-decoration: underline;
+        }
+
+        /* Подвал */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на сайт про собак!</h1>
+        <p>Узнайте больше о разных породах собак и их особенностях.</p>
+    </header>
+
+    <main>
+        <section class="dog-breed">
+            <h2>Бивер-йоркширский терьер</h2>
+            <img src="biewer.jpg" alt="Бивер-йоркширский терьер">
+            <p>Бивер-йоркширский терьер - маленькая, но очень активная и любопытная собачка. Отличается ярким окрасом и дружелюбным характером.</p>
+            <a href="https://example.com/biewer-terrier-article" target="_blank">Читать статью о Бивер-йоркширском терьере</a>
+        </section>
+
+        <section class="dog-breed">
+            <h2>Золотистый ретривер</h2>
+            <img src="golden-retriever.jpg" alt="Золотистый ретривер">
+            <p>Золотистый ретривер - крупная порода собак с очень добрым и спокойным нравом, известная своей преданностью и любовью к детям.</p>
+            <a href="https://example.com/golden-retriever-article" target="_blank">Читать статью о Золотистом ретривере</a>
+        </section>
+
+        <section class="dog-breed">
+            <h2>Хаски</h2>
+            <img src="husky.jpg" alt="Хаски">
+            <p>Хаски - порода собак, отличающаяся яркими голубыми глазами и невероятной выносливостью. Любит активные игры и общение.</p>
+            <a href="https://example.com/husky-article" target="_blank">Читать статью о Хаски</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Сайт про собак © 2024</p>
+    </footer>
+</body>
+</html>
